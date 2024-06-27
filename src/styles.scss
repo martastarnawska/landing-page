@@ -1,0 +1,60 @@
+// Screen size variables
+$xs-width:400px;
+$sm-width: 600px;
+$md-width: 768px;
+$lg-width: 1024px;
+$xl-width: 1400px;
+$xxl-width: 1600px;
+
+// Breakpoint mixins
+@mixin xs-screen {
+  @media (min-width: #{$xs-width}) {
+    @content;
+  }
+}
+
+@mixin small-screen {
+  @media (min-width: #{$sm-width}) {
+    @content;
+  }
+}
+
+@mixin tablet-screen {
+  @media (min-width: #{$md-width}) {
+    @content;
+  }
+}
+
+@mixin desktop-screen {
+  @media (min-width: #{$lg-width}) {
+    @content;
+  }
+}
+
+@mixin xl-screen {
+  @media (min-width: #{$xl-width}) {
+    @content;
+  }
+}
+
+@mixin xxl-screen {
+  @media (min-width: #{$xxl-width}) {
+    @content;
+  }
+}
+
+// Font size variables
+$font-size-xxl: 70px;
+$font-size-xl: 48px;
+$font-size-l: 40px;
+$font-size-md: 30px;
+$font-size-regular: 24px;
+$font-size-sm: 18px;
+$font-size-xs: 16px;
+$font-size-xxs: 14px;
+
+// color variables
+$c-white: #fff;
+$c-red: #ED1C24;
+$c-gray: #4B4B4B;
+$c-dark-gray: #333333;
