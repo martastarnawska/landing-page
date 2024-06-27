@@ -1,0 +1,98 @@
+
+@import '../styles.scss';
+
+.hero {
+  height: 100vh;
+  padding: 30px;
+  background-image: url('../app/assets/bg@2x3.png');
+  background-size: cover;
+  background-position: bottom;
+
+  @include small-screen {
+    background-image: url('../app/assets/bg@2x2.png');
+  }
+
+  @include desktop-screen {
+    padding: 50px 30px 50px 200px;
+  }
+
+  &__image-wrapper {
+    width: 250px;
+    
+    @include small-screen {
+      width: 300px;
+    }
+  }
+
+  &__logo {
+    max-width: 100%;
+    height: auto;
+  }
+
+  &__header {
+    font-family: "freight-micro-pro", serif;
+    font-weight: 300;
+    color: $c-white;
+    padding: 80px 30px 30px 10px;
+    font-size: $font-size-md;
+    font-weight: 300;
+
+    @include xs-screen {
+      padding: 80px 50px 65px 10px;
+    }
+
+    @include small-screen {
+      padding: 150px 80px 150px 30px;
+    }
+
+    @include tablet-screen {
+      padding: 100px 80px 100px 35%;
+      font-size: 40px;
+    }
+
+    @include desktop-screen {
+      padding: 80px 80px 80px 0;
+    }
+
+    @include xl-screen {
+      padding: 130px 80px 130px 35%;
+    }
+
+    &--emphasize {
+      font-family: "dejanire-headline", serif;
+      font-weight: 700;
+      font-style: italic;
+    }
+  }
+
+  &__description {
+    font-family: "freight-micro-pro", serif;
+    font-weight: 300;
+    font-size: $font-size-regular;
+    color: $c-white;
+
+
+    @media (max-width: #{$lg-width}) {
+      position: absolute;
+      top: 100%;
+      text-align: end;
+      padding: 50px 40px 50px 10%;
+      color: $c-gray;
+      font-size: $font-size-sm;
+    }
+
+    @include desktop-screen {
+      width: 80%;
+    }
+
+    @include xl-screen {
+      width: 60%;
+    }
+  
+    &--emphasize {
+      font-family: "dejanire-headline", serif;
+      font-weight: 400;
+      font-style: italic;
+    }
+  }
+}
