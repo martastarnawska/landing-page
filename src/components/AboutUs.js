@@ -3,7 +3,7 @@ import placeholder from "../app/assets/placeholder.png";
 import "./AboutUs.scss";
 
 const AboutUs = () => (
-  <section className="aboutUs">
+  <section className="aboutUs" id="AboutUs">
     <div className="aboutUs__heading">
       <h2 className="aboutUs__header">About Us</h2>
       <span className="dot aboutUs__dot"></span>

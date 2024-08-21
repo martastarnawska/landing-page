@@ -1,7 +1,7 @@
 import './OurOffices.scss';
 
 const OurOffices = () => (
-  <section className="offices">
+  <section className="offices" id="OurOffices">
     <div className="offices__heading">
       <span className="dot offices__dot"></span>
       <h2 className="offices__header">Our Offices</h2>

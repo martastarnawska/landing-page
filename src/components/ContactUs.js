@@ -99,7 +99,7 @@ const ContactUs = () => {
   }
 
   return (
-    <section className="contactUs">
+    <section className="contactUs" id="ContactUs">
       <div className="contactUs__heading">
         <h2 className="contactUs__header">
           <span>Contact</span>

@@ -2,7 +2,7 @@ import Link from "next/link";
 import "./OurServices.scss";
 
 const OurServices = () => (
-  <section className="ourServices">
+  <section className="ourServices" id="OurServices">
     <div className="ourServices__heading">
       <span className="dot ourServices__dot"></span>
       <h2 className="ourServices__header">Our Services</h2>
