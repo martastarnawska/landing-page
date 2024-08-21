@@ -1,18 +1,22 @@
 import Image from "next/image";
 import logo from '../app/assets/logo.svg';
+import Menu from "./Menu";
 import "./HeroSection.scss";
 
 const HeroSection = () => {
   return (
     <section className="hero">
       <div className="hero__wrapper">
-        <div className="hero__image-wrapper">
-          <Image
-            src={logo}
-            alt="Republic of Relations logo"
-            className="hero__logo"
-            priority
-          />
+        <div className="hero__navigation">
+          <div className="hero__image-wrapper">
+            <Image
+              src={logo}
+              alt="Republic of Relations logo"
+              className="hero__logo"
+              priority
+            />
+          </div>
+        <Menu/>
         </div>
         <h1 className="hero__header">
           Our daily bread is to connect right people in Poland and America in their desire to create and tighten bonds in business, culture or simply in 

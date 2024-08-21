@@ -19,6 +19,17 @@
     }
   }
 
+  &__navigation {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+
+    @include xxl-screen {
+      justify-content: space-around;
+      gap: 0;
+    }
+  }
+
   &__image-wrapper {
     width: 250px;
     
@@ -35,7 +46,7 @@
   &__header {
     font-weight: 300;
     color: $c-white;
-    padding: 80px 30px 30px 10px;
+    padding: 60px 30px 30px 10px;
     font-size: $font-size-md;
     font-weight: 300;
 
@@ -73,14 +84,14 @@
     color: $c-white;
 
 
-    @media (max-width: #{$lg-width}) {
+    @media (max-width: #{$lg-width}), (max-height: 800px) {
       text-align: end;
       padding: 50px 40px 50px 10%;
       color: $c-gray;
       font-size: $font-size-sm;
     }
 
-    @include desktop-screen {
+    @media (min-width: #{$lg-width}) and (min-height: 800px) {
       width: 80%;
       position: absolute;
       bottom: 0;

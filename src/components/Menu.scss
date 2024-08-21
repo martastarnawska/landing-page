@@ -1,0 +1,81 @@
+@import "../styles.scss";
+
+.menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 20px;
+  color: $c-white;
+
+  &--open {
+    background-color: $c-white;
+    opacity: 95%;
+    color: $c-dark-gray;
+  }
+
+  &--closed {
+    background-color: transparent;
+  }
+
+  &__button {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+  }
+
+  &__list {
+    list-style-type: none;
+    font-size: $font-size-md;
+    padding: 15px;
+
+    &--open {
+      display: flex;
+      flex-direction: column;
+
+    }
+
+    &--closed {
+      display: none;
+
+    }
+  }
+
+  &__listItem {
+    padding: 10px;
+  }
+
+  &__link {
+    padding: 10px;
+  }
+
+  @include xl-screen {
+    position: static;
+    background-color: transparent;
+    color: $c-white;
+    
+    &__button {
+      display: none;
+    }
+
+    &__listItem {
+      padding: 0;
+    }
+
+    &__list {
+      display: flex;
+      opacity: 100%;
+      flex-direction: row;
+      gap: 15px;
+    }
+  }
+
+  @include xxl-screen {
+    &__list {
+      gap: 50px;
+    }
+  }
+}

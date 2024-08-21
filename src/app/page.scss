@@ -1,5 +1,9 @@
 @import '../styles.scss';
 
+html {
+  scroll-behavior: smooth;
+}
+
 .main {
   font-family: "freight-micro-pro", serif;
   font-weight: 300;
