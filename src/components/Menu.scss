@@ -9,12 +9,14 @@
   justify-content: flex-end;
   align-items: flex-end;
   padding: 20px;
-  color: $c-white;
 
   &--open {
     background-color: $c-white;
     opacity: 95%;
-    color: $c-dark-gray;
+
+    .menu__link {
+      color: $c-dark-gray;
+    }
   }
 
   &--closed {
@@ -35,12 +37,10 @@
     &--open {
       display: flex;
       flex-direction: column;
-
     }
 
     &--closed {
       display: none;
-
     }
   }
 
@@ -50,12 +50,13 @@
 
   &__link {
     padding: 10px;
+    color: $c-white;
+    text-decoration: none;
   }
 
   @include xl-screen {
     position: static;
     background-color: transparent;
-    color: $c-white;
     
     &__button {
       display: none;
@@ -71,6 +72,14 @@
       flex-direction: row;
       gap: 15px;
     }
+
+    &--closed,
+    &--open {
+      .menu__link {
+        color: $c-white;
+      }
+    }
+
   }
 
   @include xxl-screen {

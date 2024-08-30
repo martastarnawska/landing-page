@@ -31,7 +31,7 @@ const Menu = () => {
         <li className="menu__listItem">
           <Link
             className="menu__link"
-            href={"#OurServices"}
+            href={"/#OurServices"}
             onClick={toggleMenuOpen}
           >
             Our Services
@@ -40,7 +40,7 @@ const Menu = () => {
         <li className="menu__listItem">
           <Link
             className="menu__link"
-            href={"#AboutUs"}
+            href={"/#AboutUs"}
             onClick={toggleMenuOpen}
           >
             About Us
@@ -49,7 +49,7 @@ const Menu = () => {
         <li className="menu__listItem">
           <Link
             className="menu__link"
-            href={"#ContactUs"}
+            href={"/#ContactUs"}
             onClick={toggleMenuOpen}
           >
             Contact Us
@@ -58,7 +58,7 @@ const Menu = () => {
         <li className="menu__listItem">
           <Link
             className="menu__link"
-            href={"#OurOffices"}
+            href={"/#OurOffices"}
             onClick={toggleMenuOpen}
           >
             Our Offices

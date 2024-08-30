@@ -1,0 +1,26 @@
+@import '../styles.scss';
+@import '../app/page.scss';
+
+.navigation {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+
+  @include xxl-screen {
+    justify-content: space-around;
+    gap: 0;
+  }
+
+  &__logoWrapper {
+    width: 125px;
+    
+    @include small-screen {
+      width: 200px;
+    }
+  }
+
+  &__logo {
+    max-width: 100%;
+    height: auto;
+  }
+}
