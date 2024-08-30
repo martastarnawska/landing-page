@@ -1,0 +1,38 @@
+@import '../styles.scss';
+
+body {
+  margin: 0;
+}
+.subpage {
+  font-family: "freight-micro-pro", serif;
+  color: $c-white;
+  min-height: 100vh;
+  background-image: url('../app/assets/bg@2x3.png');
+  display: flex;
+
+  @include small-screen {
+    background-image: url('../app/assets/bg@2x2.png');
+  }
+
+  &__box {
+    width: 100%;
+    backdrop-filter: blur(8px);
+    padding: 30px;
+
+    @include desktop-screen {
+      padding: 50px 100px 50px 200px;
+    }
+  }
+
+  &__contentWrapper {
+    max-width: 1000px;
+  }
+
+  &__title {
+    font-size: $font-size-xl;
+  }
+
+  &__content {
+    font-size: $font-size-regular;
+  }
+}
