@@ -1,7 +1,7 @@
 @import "../styles.scss";
 
 .menu {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   display: flex;
@@ -27,6 +27,7 @@
     cursor: pointer;
     border: none;
     background-color: transparent;
+    z-index: 10;
   }
 
   &__list {

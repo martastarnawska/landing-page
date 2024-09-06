@@ -38,6 +38,20 @@
     }
   }
 
+  &__menuBar--scrolled {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: $c-dark-gray;
+    opacity: 50%;
+    height: 75px;
+
+    @include xl-screen {
+      display: none;
+    }
+  }
+
   &__logo {
     max-width: 100%;
     height: auto;

@@ -1,9 +1,19 @@
+"use client"
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import logo from '../app/assets/logo.svg';
 import Menu from "./Menu";
 import "./HeroSection.scss";
 
 const HeroSection = () => {
+  const [scroll, setScroll] = useState(false)
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      setScroll(window.scrollY > 200);
+    }, [])
+  })
+
   return (
     <section className="hero">
       <div className="hero__wrapper">
@@ -16,7 +26,8 @@ const HeroSection = () => {
               priority
             />
           </div>
-        <Menu/>
+          <div className={`hero__menuBar${scroll && "--scrolled"}`}/>
+          <Menu/>
         </div>
         <h1 className="hero__header">
           Our daily bread is to connect right people in Poland and America in their desire to create and tighten bonds in business, culture or simply in 
