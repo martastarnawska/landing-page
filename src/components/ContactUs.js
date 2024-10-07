@@ -1,5 +1,6 @@
 'use client'
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef } from "react";
+import dynamic from "next/dynamic";
 import emailjs from '@emailjs/browser';
 import Image from "next/image";
 import sendIcon from '../app/assets/send-icon.svg';
@@ -98,6 +99,13 @@ const ContactUs = () => {
     }
   }
 
+  const CalendlyWidget = dynamic(
+    () => {
+      return import("@/components/CalendlyWidget")
+    },
+    { ssr: false }
+  );
+
   return (
     <section className="contactUs" id="ContactUs">
       <div className="contactUs__heading">
@@ -108,7 +116,11 @@ const ContactUs = () => {
         </h2>
       </div>
       <div className="contactUs__content">
+        <div className="contactUs__buttonWrapper">
+          <CalendlyWidget />
+        </div>
         <form className='form' onSubmit={handleSubmitForm} ref={form} noValidate>
+          <p>You can also leave us a message</p>
           <input
             type="text"
             placeholder="Name and Surname"

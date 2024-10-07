@@ -1,0 +1,22 @@
+@import '../styles.scss';
+
+.calendlyButton {
+  background-color: $c-red;
+  padding: 20px;
+  border: none;
+  color: $c-white;
+  font-family: "freight-micro-pro", serif;
+  font-size: $font-size-xs;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 50px;
+  transition: all .2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  @include tablet-screen {
+    font-size: $font-size-sm;
+  }
+}
