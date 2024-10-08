@@ -1,4 +1,5 @@
 import Subpage from "@/components/Subpage";
+import '../i18n/i18n';
 
 const title = "General Consulting";
 const textContent = "Our daily bread is to connect right people in Poland and America in their desire to create and tighten bonds in business, culture or simply in bringing communities together. Our daily bread is to connect right people in Poland and America in their desire to create and tighten bonds in business, culture or simply in bringing communities together. Our daily bread is to connect right people in Poland and America in their desire to create and tighten bonds in business, culture or simply in bringing communities together. Our daily bread is to connect right people in Poland and America in their desire to create and tighten bonds in business, culture or simply in bringing communities together.Our daily bread is to connect right people in Poland and America in their desire to create and tighten bonds in business, culture or simply in bringing communities together";

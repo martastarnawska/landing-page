@@ -3,6 +3,7 @@ import { useState, useRef } from "react";
 import dynamic from "next/dynamic";
 import emailjs from '@emailjs/browser';
 import Image from "next/image";
+import { useTranslation } from 'react-i18next';
 import sendIcon from '../app/assets/send-icon.svg';
 import "./ContactUs.scss";
 
@@ -14,6 +15,8 @@ const EMPTY_INPUT = "this field can't be empty";
 const INVALID_EMAIL = "please provide valid email format";
 
 const ContactUs = () => {
+  const { t } = useTranslation();
+
   const initialState = {
     user_name: "", 
     user_email: "",
@@ -110,9 +113,9 @@ const ContactUs = () => {
     <section className="contactUs" id="ContactUs">
       <div className="contactUs__heading">
         <h2 className="contactUs__header">
-          <span>Contact</span>
+          <span>{t('contactUs.title-firstPart')}</span>
           <span className="dot contactUs__dot"></span>
-          <span>Us</span>
+          <span>{t('contactUs.title-secondPart')}</span>
         </h2>
       </div>
       <div className="contactUs__content">

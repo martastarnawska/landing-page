@@ -1,14 +1,25 @@
 "use client"
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
+import i18n from 'i18next';
 import Link from "next/link";
 import Image from "next/image";
-import burgerMenuIcon from "../app/assets/menu.svg"
-import burgerMenuOpen from "../app/assets/menu-open.svg"
+import burgerMenuIcon from "../app/assets/menu.svg";
+import burgerMenuOpen from "../app/assets/menu-open.svg";
+import polishFlag from "../app/assets/poland.svg";
+import usFlag from "../app/assets/united-states.svg";
 import "./Menu.scss";
 
 const Menu = () => {
-
+  const { t } = useTranslation()
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+    localStorage.setItem('language', lng);
+  };
+
+  const getLanguage = () => i18n.language;
 
   const toggleMenuOpen = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -34,7 +45,7 @@ const Menu = () => {
             href={"/#OurServices"}
             onClick={toggleMenuOpen}
           >
-            Our Services
+            {t('menu.ourServices')}
           </Link>
         </li>
         <li className="menu__listItem">
@@ -43,7 +54,7 @@ const Menu = () => {
             href={"/#AboutUs"}
             onClick={toggleMenuOpen}
           >
-            About Us
+            {t('menu.aboutUs')}
           </Link>
         </li>
         <li className="menu__listItem">
@@ -52,7 +63,7 @@ const Menu = () => {
             href={"/#ContactUs"}
             onClick={toggleMenuOpen}
           >
-            Contact Us
+            {t('menu.contactUs')}
           </Link>
         </li>
         <li className="menu__listItem">
@@ -61,8 +72,23 @@ const Menu = () => {
             href={"/#OurOffices"}
             onClick={toggleMenuOpen}
           >
-            Our Offices
+            {t('menu.ourOffices')}
           </Link>
+        </li>
+        <li className="menu__listItem menu__listItem--button">
+          <button
+            onClick={() => {
+              getLanguage() === "en" ? changeLanguage('pl') : changeLanguage('en');
+              toggleMenuOpen();
+            }}
+            className="menu__changeLngButon"
+          >
+            <Image
+              src={getLanguage() === "en" ?  polishFlag : usFlag}
+              alt={getLanguage() === "en" ? "change language for polish" : "change language for english"}
+              className="menu__flag"
+            />
+          </button>
         </li>
       </ul>
     </nav>

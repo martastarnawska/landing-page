@@ -17,6 +17,23 @@
       margin-left: 225px;
       margin-bottom: -15px;
     }
+
+    &--polish {
+      position: relative;
+      margin-left: 0;
+      margin-bottom: 0;
+      bottom: -19px;
+      left: 135px;
+      width: 5px !important;
+      height: 6px !important;
+
+      @include desktop-screen {
+        bottom: -33px;
+        left: 237px;
+        width: 7px !important;
+        height: 8px !important;
+      }
+    }
   }
 
   &__content {

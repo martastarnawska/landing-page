@@ -1,18 +1,19 @@
 "use client"
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import { Trans } from 'react-i18next';
 import logo from '../app/assets/logo.svg';
 import Menu from "./Menu";
 import "./HeroSection.scss";
 
 const HeroSection = () => {
-  const [scroll, setScroll] = useState(false)
+  const [scroll, setScroll] = useState(false);
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
       setScroll(window.scrollY > 200);
     }, [])
-  })
+  });
 
   return (
     <section className="hero">
@@ -26,12 +27,14 @@ const HeroSection = () => {
               priority
             />
           </div>
-          <div className={`hero__menuBar${scroll && "--scrolled"}`}/>
+          <div className={`hero__menuBar${scroll ? "--scrolled" : ""}`}/>
           <Menu/>
         </div>
         <h1 className="hero__header">
-          Our daily bread is to connect right people in Poland and America in their desire to create and tighten bonds in business, culture or simply in 
-          <b className="hero__header--emphasize"> bringing communities together </b>
+          <Trans i18nKey="hero.welcomeText">
+            initial description
+            <b className="hero__header--emphasize"> emphasize fraze </b>
+          </Trans>
         </h1>
       </div>
       <p className="hero__description">

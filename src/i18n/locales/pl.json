@@ -1,0 +1,25 @@
+{
+  "hero": {
+    "welcomeText": "Naszym chlebem powszednim jest łączenie właściwych ludzi w Polsce i Ameryce w ich dążeniu do tworzenia i zacieśniania więzi w biznesie, kulturze czy po prostu w <1> łączeniu społeczności</1>",
+    "description": ""
+  },
+  "menu": {
+    "ourServices": "Nasze usługi",
+    "aboutUs": "O nas",
+    "contactUs": "Skontaktuj się",
+    "ourOffices": "Nasze biura"
+  },
+  "ourServices": {
+    "title": "Nasze usługi"
+  },
+  "aboutUs": {
+    "title": "O nas"
+  },
+  "contactUs": {
+    "title-firstPart": "Skontaktuj",
+    "title-secondPart": "się"
+  },
+  "ourOffices": {
+    "title": "Nasze biura"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "hero": {
+    "welcomeText": "Our daily bread is to connect right people in Poland and America in their desire to create and tighten bonds in business, culture or simply in <1> bringing communities together</1>",
+    "description": ""
+  },
+  "menu": {
+    "ourServices": "Our Services",
+    "aboutUs": "About Us",
+    "contactUs": "Contact Us",
+    "ourOffices": "Our Offices"
+  },
+  "ourServices": {
+    "title": "Our Services"
+  },
+  "aboutUs": {
+    "title": "About Us"
+  },
+  "contactUs": {
+    "title-firstPart": "Contact",
+    "title-secondPart": "Us"
+  },
+  "ourOffices": {
+    "title": "Our Offices"
+  }
+}

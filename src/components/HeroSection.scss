@@ -21,7 +21,7 @@
 
   &__navigation {
     display: flex;
-    gap: 100px;
+    gap: 60px;
     align-items: center;
 
     @include xxl-screen {
@@ -82,7 +82,7 @@
     }
 
     @include xl-screen {
-      padding: 130px 80px 130px 35%;
+      padding: 90px 80px 130px 35%;
     }
 
     &--emphasize {
