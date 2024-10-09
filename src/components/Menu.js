@@ -1,5 +1,5 @@
 "use client"
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import i18n from 'i18next';
 import Link from "next/link";
@@ -13,6 +13,7 @@ import "./Menu.scss";
 const Menu = () => {
   const { t } = useTranslation()
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const menuRef = useRef(null);
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
@@ -24,8 +25,22 @@ const Menu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (menuRef.current && !menuRef.current.contains(e.target)) {
+        setIsMenuOpen(false)
+      }
+    }
+
+    document.addEventListener('mousedown', handleClickOutside);
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [menuRef]);
+
   return (
-    <nav className={`menu menu--${isMenuOpen ? "open" : "closed"}`}>
+    <nav className={`menu menu--${isMenuOpen ? "open" : "closed"}`} ref={menuRef}>
       <button
         className="menu__button"
         onClick={toggleMenuOpen}
