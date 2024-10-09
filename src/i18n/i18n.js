@@ -23,7 +23,6 @@ i18n
       caches: ['localStorage'],
     },
     fallbackLng: 'en',
-    debug: true,
     interpolation: {
       escapeValue: false,
     },
