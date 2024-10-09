@@ -98,9 +98,8 @@ const Menu = () => {
             className="menu__changeLngButon"
           >
             <Image
-              src={getLanguage() === "en" ?  polishFlag : usFlag}
-              alt="change language flag"
-              // alt={getLanguage() === "en" ? "change language for polish" : "change language for english"}
+              src={getLanguage() === "pl" ?  usFlag : polishFlag}
+              alt={getLanguage() === "pl" ? "change language for english" : "change language for polish" }
               className="menu__flag"
             />
           </button>
