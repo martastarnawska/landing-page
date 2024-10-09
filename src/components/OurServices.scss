@@ -41,6 +41,7 @@
   text-align: center;
   font-size: $font-size-xxs;
   padding: 6px;
+  transition: all .2s ease-in-out; 
 
   &::before {
     content: "";

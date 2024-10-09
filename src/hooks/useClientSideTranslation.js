@@ -13,4 +13,3 @@ const useClientSideTranslation = () => {
 };
 
 export default useClientSideTranslation;
-
