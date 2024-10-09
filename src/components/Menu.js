@@ -16,7 +16,6 @@ const Menu = () => {
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
-    localStorage.setItem('language', lng);
   };
 
   const getLanguage = () => i18n.language;
@@ -85,7 +84,8 @@ const Menu = () => {
           >
             <Image
               src={getLanguage() === "en" ?  polishFlag : usFlag}
-              alt={getLanguage() === "en" ? "change language for polish" : "change language for english"}
+              alt="change language flag"
+              // alt={getLanguage() === "en" ? "change language for polish" : "change language for english"}
               className="menu__flag"
             />
           </button>

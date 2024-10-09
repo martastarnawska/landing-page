@@ -1,12 +1,14 @@
 "use client"
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import { Trans } from 'react-i18next';
+import { Trans, useTranslation } from 'react-i18next';
 import logo from '../app/assets/logo.svg';
 import Menu from "./Menu";
 import "./HeroSection.scss";
 
 const HeroSection = () => {
+  const { t } = useTranslation();
+
   const [scroll, setScroll] = useState(false);
 
   useEffect(() => {
@@ -31,7 +33,7 @@ const HeroSection = () => {
           <Menu/>
         </div>
         <h1 className="hero__header">
-          <Trans i18nKey="hero.welcomeText">
+          <Trans i18nKey="hero.welcomeText" t={t}>
             initial description
             <b className="hero__header--emphasize"> emphasize fraze </b>
           </Trans>

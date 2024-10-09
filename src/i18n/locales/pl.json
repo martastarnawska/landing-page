@@ -21,5 +21,9 @@
   },
   "ourOffices": {
     "title": "Nasze biura"
+  },
+  "generalConsulting": {
+    "title": "Doradztwo",
+    "textContent": "Naszym chlebem powszednim jest łączenie właściwych ludzi w Polsce i Ameryce w ich dążeniu do tworzenia i zacieśniania więzi w biznesie, kulturze czy po prostu w łączeniu społeczności"
   }
 }
