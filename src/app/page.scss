@@ -1,5 +1,9 @@
 @import '../styles.scss';
 
+:root {
+  color-scheme: light only;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -8,6 +12,7 @@ html {
   font-family: "freight-micro-pro", serif;
   font-weight: 300;
   background-color: $c-white;
+  color: $c-black;
 }
 
 h2 {
