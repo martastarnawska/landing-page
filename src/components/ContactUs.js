@@ -102,12 +102,12 @@ const ContactUs = () => {
     }
   }
 
-  const CalendlyWidget = dynamic(
-    () => {
-      return import("@/components/CalendlyWidget")
-    },
-    { ssr: false }
-  );
+  // const CalendlyWidget = dynamic(
+  //   () => {
+  //     return import("@/components/CalendlyWidget")
+  //   },
+  //   { ssr: false }
+  // );
 
   return (
     <section className="contactUs" id="ContactUs">
@@ -119,11 +119,11 @@ const ContactUs = () => {
         </h2>
       </div>
       <div className="contactUs__content">
-        <div className="contactUs__buttonWrapper">
+        {/* <div className="contactUs__buttonWrapper">
           <CalendlyWidget />
-        </div>
+        </div> */}
         <form className='form' onSubmit={handleSubmitForm} ref={form} noValidate>
-          <p>You can also leave us a message</p>
+          {/* <p>You can also leave us a message</p> */}
           <input
             type="text"
             placeholder="Name and Surname"
