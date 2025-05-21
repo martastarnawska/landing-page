@@ -27,7 +27,6 @@ const Home = () => {
           <OurServices />
           <AboutUs />
           <ContactUs />
-          <OurOffices />
         </main>
     </>
 )};
