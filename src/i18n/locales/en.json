@@ -1,7 +1,8 @@
 {
   "hero": {
-    "welcomeText": "Our daily bread is to connect right people in Poland and America in their desire to create and tighten bonds in business, culture or simply in <1> bringing communities together</1>",
-    "description": ""
+    "welcomeText": "Our daily bread is to <1>connect right people in Poland and America </1> in their desire to create and tighten bonds in business, culture or simply in bringing communities together.",
+    "description-part1": "We specialize in business connections, public relations, and strategic consulting for companies expanding from the United States to Poland and from Poland to the U.S.",
+    "description-part2": "Our experience includes helping businesses enter new markets, find partners, and exchange knowledge. With decades of combined experience in both countries, we can guide your first steps to help your venture succeed."
   },
   "menu": {
     "ourServices": "Our Services",

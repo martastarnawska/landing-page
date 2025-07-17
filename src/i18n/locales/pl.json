@@ -1,7 +1,8 @@
 {
   "hero": {
-    "welcomeText": "Naszym chlebem powszednim jest łączenie właściwych ludzi w Polsce i Ameryce w ich dążeniu do tworzenia i zacieśniania więzi w biznesie, kulturze czy po prostu w <1> łączeniu społeczności</1>",
-    "description": ""
+    "welcomeText": "Naszą misją jest łączyć ludzi, którzy chcą budować trwałe relacje między Polską a Stanami Zjednoczonymi — w biznesie, kulturze czy działaniu społecznym.",
+    "description-part1": "Specjalizujemy się w budowaniu relacji biznesowych, działaniach PR oraz doradztwie strategicznym dla firm z USA zainteresowanych rozwojem działalności w Polsce oraz dla polskich przedsiębiorstw planujących ekspansję na rynek amerykański.", 
+    "description-part2": "Naszym atutem jest rozbudowana i zróżnicowana sieć kontaktów oraz wieloletnie doświadczenie w realizacji projektów po obu stronach Atlantyku."
   },
   "menu": {
     "ourServices": "Nasze usługi",
