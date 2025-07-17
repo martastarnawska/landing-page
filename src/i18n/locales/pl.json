@@ -12,8 +12,23 @@
   "ourServices": {
     "title": "Nasze usługi"
   },
-  "aboutUs": {
-    "title": "O nas"
+"aboutUs": {
+    "title": "O nas",
+    "president": {
+      "title": "Prezes",
+      "bio-part1": "Specjalista z wieloletnim doświadczeniem w dziedzinie komunikacji, public relations i dyplomacji.",
+      "bio-part2": "Karierę rozpoczynał jako dziennikarz, współpracując z czołowymi polskimi rozgłośniami radiowymi i redakcjami, koncentrując się na tematyce humanitarnej i rozwojowej.",
+      "bio-part3": " LOT Polish Airlines związał się w 2014 roku, obejmując następnie stanowisko dyrektora biura komunikacji i rzecznika prasowego spółki. Odegrał kluczową rolę w kampanii „Bez wiz do USA”, która przyczyniła się do objęcia Polski programem ruchu bezwizowego do Stanów Zjednoczonych.",
+      "bio-part4": "W latach 2020–2024 pełnił funkcję Konsula Generalnego RP w Nowym Jorku. W tym czasie koncentrował się na wspieraniu Polonii, rozwijaniu relacji polsko-amerykańskich oraz wzmacnianiu więzi kulturalnych i gospodarczych.",
+      "bio-part5": "Absolwent Uniwersytetu Warszawskiego (licencjat z nauk społecznych) oraz Collegium Civitas (magisterium z zakresu stosunków międzynarodowych)."
+    },
+    "vicePresident": {
+      "title": "Wiceprezes",
+      "bio-part1": "Ekspert z doświadczeniem w obszarze PR i doradztwa strategicznego.",
+      "bio-part2": "W trakcie kariery zawodowej zajmował stanowiska menedżerskie w różnych sektorach – od rozwoju biznesu i analityki w agencji rozwoju, przez sprawy gospodarcze i komunikacyjne na placówce dyplomatycznej w Nowym Jorku, po planowanie strategiczne i relacje z mediami zagranicznymi w Kancelarii Prezesa Rady Ministrów.",
+      "bio-part3": "Autor i współautor dokumentów strategicznych, raportów i przemówień politycznych o znaczeniu krajowym i międzynarodowym. W trakcie swojej kariery odpowiadał za organizację wizyt wysokiego szczebla, prowadzenie kampanii PR w Polsce i USA oraz współpracę z czołowymi światowymi mediami.",
+      "bio-part4": "Ukończył studia magisterskie na Wydziale Prawa Uniwersytetu Warszawskiego oraz program dla liderów na Stanford Graduate School of Business."
+    }
   },
   "contactUs": {
     "title-firstPart": "Skontaktuj",

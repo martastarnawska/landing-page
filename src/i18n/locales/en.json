@@ -13,7 +13,21 @@
     "title": "Our Services"
   },
   "aboutUs": {
-    "title": "About Us"
+    "title": "About Us",
+    "president": {
+      "title": "President",
+      "bio-part1": "A professional with a robust background in public relations, communication, and diplomacy.",
+      "bio-part2": "As a journalist, he contributed to prominent Polish radio stations and publications, focusing on humanitarian and development issues. He joined LOT Polish Airlines in 2014 and ascended to the position of Communications Director and spokesperson. Notably, he was instrumental in the \"Bez wiz do USA\" campaign, which played a pivotal role in Poland's inclusion in the U.S. Visa Waiver Program.",
+      "bio-part3": "From March 2020 to June 2024, he served as the Consul General of Poland in New York City. During his tenure, he focused on supporting the Polish diaspora, enhancing Polish-American relations, and fostering cultural and economic ties.",
+      "bio-part4": "He holds a Bachelor's degree in Social Sciences from the University of Warsaw and a Master's degree in International Relations from Collegium Civitas.",
+      "bio-part5": ""
+    },
+    "vicePresident": {
+      "title": "Vice President",
+      "bio-part1": "A professional with a proven track record in PR and strategic advisory roles.",
+      "bio-part2": "Throughout his career, he has held managerial positions across a range of sectors, including business development and analysis at a development agency, PR and economic affairs in a diplomatic capacity in New York, strategy and foreign media relations at the Prime Minister's Office in Poland. In these roles, he has authored and contributed to policy documents, reports, and impactful political speeches. He has been also responsible for coordinating top-tier international political and business delegations, running PR campaigns in US and Poland, and closely with leading global media outlets.",
+      "bio-part3": "He holds a Master’s degree in Law from the University of Warsaw and completed an executive leadership program at Stanford University’s Graduate School of Business."
+    }
   },
   "contactUs": {
     "title-firstPart": "Contact",

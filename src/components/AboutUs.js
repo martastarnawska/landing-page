@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { useTranslation } from 'react-i18next';
-import placeholder from "../app/assets/placeholder.png";
 import "./AboutUs.scss";
 
 const AboutUs = () => {
@@ -14,40 +13,51 @@ const AboutUs = () => {
       </div>
       <div className="card">
         <Image 
-          src={placeholder}
+          src="/images/AdrianKubicki.jpeg"
           alt="portrait"
           className="card__portrait"
+          width={400}
+          height={600}
         />
         <div className="card__description card__description--first">
           <p className="card__name">
             <span className="card__firstName">
               <span className="dot card__dot"></span>
-              <span>Name</span>
+              <span>Adrian</span>
             </span>
-            <b className="card__lastName">Surname</b>
+            <b className="card__lastName">Kubicki</b>
           </p>
-          <p className="card__bio">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et 
-          </p>
+          <div className="card__bio">
+            <p>{t('aboutUs.president.bio-part1')}</p>
+            <p>{t('aboutUs.president.bio-part2')}</p>
+            <p>{t('aboutUs.president.bio-part3')}</p>
+            <p>{t('aboutUs.president.bio-part4')}</p>
+            <p>{t('aboutUs.president.bio-part5')}</p>
+          </div>
         </div>
       </div>
       <div className="card card--reversed">
         <Image 
-          src={placeholder}
+          src="/images/StanislawStarnawski.jpeg"
           alt="portrait"
           className="card__portrait"
+          width={400}
+          height={600}
         />
         <div className="card__description  card__description--second">
           <p className="card__name">
-          <span className="card__firstName">
-              <span>Name</span>
+            <span className="card__firstName">
+              <span>Stanisław</span>
               <span className="dot card__dot"></span>
             </span>
-            <b className="card__lastName">Surname</b>
+            <b className="card__lastName">Starnawski</b>
           </p>
-          <p className="card__bio">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et 
-          </p>
+          <div className="card__bio">
+            <p>{t('aboutUs.vicePresident.bio-part1')}</p>
+            <p>{t('aboutUs.vicePresident.bio-part2')}</p>
+            <p>{t('aboutUs.vicePresident.bio-part3')}</p>
+            <p>{t('aboutUs.vicePresident.bio-part4')}</p>
+          </div>
         </div>
       </div>
     </section>
