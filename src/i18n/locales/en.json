@@ -24,6 +24,42 @@
   },
   "generalConsulting": {
     "title": "General Consulting",
-    "textContent": "Our daily bread is to connect right people in Poland and America in their desire to create and tighten bonds in business, culture or simply in bringing communities together"
+    "textContent": "We help you take your first steps abroad with confidence. From validating your business assumptions to reviewing and improving your expansion model, we provide guidance at every stage. Our support goes beyond paperwork - we connect you with professionals and partners who know how to make things happen.",
+    "textContent2": "Among our network are dual-licensed lawyers (U.S. and Poland), grant specialists, and experienced business analysts. We combine practical insights with trusted connections to support your success on new ground."
+  },
+  "strategyConsulting": {
+    "title": "Strategy Consulting",
+    "textContent": "Our team combines analytical rigor with real-world business experience. We help you build or refine strategies based on a clear understanding of your market, opportunities, and risks.",
+    "textContent2": "From drafting strategy documents to assessing existing plans, we deliver grounded, actionable advice backed by years of consulting and operational expertise."
+  },
+  "businessAdvisory": {
+    "title": "Business Advisory",
+    "textContent": "We navigate the systems that support investment and entrepreneurship: economic agencies, trade associations, local chambers, and state development structures. We know how these institutions work and how to align your goals with available resources.",
+    "textContent2": "Working with experienced analysts, we offer practical advice on obtaining grants, accessing funding or understanding procurement systems in both Poland and the U.S."
+  },
+  "PRMarketing": {
+    "title": "PR & Marketing Consulting",
+    "textContent": "Our team, with substantial experience in both public and private sectors, has managed large-scale PR campaigns across both the U.S. and Poland. We have worked with global media outlets and understand how to position your message for maximum impact.",
+    "textContent2": "We offer full-service PR support, media relations, marketing strategy development, and communications planning, tailored to your audience and goals, in either market."
+  },
+  "workshopsEvents": {
+    "title": "Workshops & Events",
+    "textContent": "We organize events, workshops, seminars, and trainings to build knowledge - from business fundamentals to cultural nuances. Whether you're looking for executive briefings or public events, we help design and deliver formats that meet your goals.",
+    "textContent2": "We also connect you with expert speakers, trainers, and facilitators who bring both expertise and relevance."
+  },
+  "researchInsights": {
+    "title": "Research & Insights",
+    "textContent": "Need tailored research on U.S.–Poland relations or business trends? We prepare clear, well-founded reports, background papers, and market insights to support your decision-making.",
+    "textContent2": "Our research is always grounded in verified data, relevant context, and practical value."
+  },
+  "communityOutreach": {
+    "title": "Community Outreach",
+    "textContent": "We’ve worked closely with leading Polish-American organizations and have a deep understanding of key people, networks, and local community dynamics.",
+    "textContent2": "Our experience provides access to unique insights and data, helping you connect meaningfully with Polish communities in the U.S."
+  },
+  "governmentRelations": {
+    "title": "Government Relations",
+    "textContent": "We’ve worked within and alongside government structures, holding executive positions in Poland and collaborating with federal and state agencies in the U.S. This gives us deep insight into public sector culture and protocols on both sides of the Atlantic.",
+    "textContent2": "We can help you engage with the right public stakeholders while maintaining the highest professional standards in process and communication."
   }
 }

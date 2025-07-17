@@ -12,14 +12,14 @@ const OurServices = () => {
         <h2 className="ourServices__header">{t('ourServices.title')}</h2>
       </div>
       <div className="ourServices__content">
-          <Link className="tile tile--first tile--special tile--large" href="/GeneralConsulting">General Consulting</Link>
-          <Link className="tile" href="/StrategyConsulting">Strategy Consulting</Link>
-          <Link className="tile" href="/BusinessAdvisory">Business Advisory</Link>
-          <Link className="tile tile--unique tile--large" href="/PRConsulting">PR & marketing consulting</Link>
-          <Link className="tile" href="/WorkshopsTrainings">Workshops Trainings</Link>
-          <Link className="tile" href="/ResearchInsights">Research Insights</Link>
-          <Link className="tile tile--long" href="/Community Outreach">Community Outreach</Link>
-          <Link className="tile" href="/Government Relations">Government Relations</Link>
+          <Link className="tile tile--first tile--special tile--large" href="/GeneralConsulting">{t('generalConsulting.title')}</Link>
+          <Link className="tile" href="/StrategyConsulting">{t('strategyConsulting.title')}</Link>
+          <Link className="tile" href="/BusinessAdvisory">{t('businessAdvisory.title')}</Link>
+          <Link className="tile tile--unique tile--large" href="/PRMarketing">{t('PRMarketing.title')}</Link>
+          <Link className="tile" href="/WorkshopsEvents">{t('workshopsEvents.title')}</Link>
+          <Link className="tile" href="/ResearchInsights">{t('researchInsights.title')}</Link>
+          <Link className="tile tile--long" href="/CommunityOutreach">{t('communityOutreach.title')}</Link>
+          <Link className="tile" href="/GovernmentRelations">{t('governmentRelations.title')}</Link>
       </div>
     </section>
   )

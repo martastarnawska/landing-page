@@ -24,6 +24,42 @@
   },
   "generalConsulting": {
     "title": "Doradztwo",
-    "textContent": "Naszym chlebem powszednim jest łączenie właściwych ludzi w Polsce i Ameryce w ich dążeniu do tworzenia i zacieśniania więzi w biznesie, kulturze czy po prostu w łączeniu społeczności"
+    "textContent": "Pomagamy postawić pierwsze kroki za granicą. Oferujemy wsparcie na każdym etapie: od weryfikacji założeń, przez ocenę i optymalizację modelu ekspansji, po jego wdrożenie.",
+    "textContent2": "Nasze działania wykraczają poza analizy i dobre rady na papierze — działamy razem z Tobą, a w razie potrzeby łączymy Cię ze sprawdzonymi profesjonalistami.Współpracujemy z prawnikami posiadającymi licencje zarówno w Polsce, jak i w USA, ekspertami ds. grantów czy doświadczonymi analitykami. Praktyczne podejście i zaufana sieć kontaktów to nasz sposób na skuteczne wsparcie Twojej firmy."
+  },
+  "strategyConsulting": {
+    "title": "Planowanie strategiczne",
+    "textContent": "Łączymy analityczną precyzję z praktycznym doświadczeniem biznesowym. Pomagamy tworzyć i udoskonalać strategie w oparciu o najlepsze dane, ale również wiedzę pozyskaną dzięki osobistym, unikalnym kontaktom biznesowym.",
+    "textContent2": "Od opracowania dokumentów strategicznych po ocenę już istniejących planów — dostarczamy rzetelne i wykonalne rekomendacje, wypracowane dzięki naszemu doświadczeniu doradczemu i operacyjnemu."
+  },
+  "businessAdvisory": {
+    "title": "Rozwój biznesu",
+    "textContent": "Znamy systemy wspierające przedsiębiorczość i inwestycje: agencje rozwoju, izby handlowe, stowarzyszenia branżowe czy instytucje dyplomacji gospodarczej. Wiemy, jak działają i jak z nich korzystać.",
+    "textContent2": "Współpracując z doświadczonymi analitykami, doradzamy przy pozyskiwaniu dotacji, finansowania oraz przy poruszaniu się po systemach zamówień publicznych — zarówno w Polsce, jak i w USA."
+  },
+  "PRMarketing": {
+    "title": "PR i marketing",
+    "textContent": "Nasz zespół posiada szerokie doświadczenie w sektorze prywatnym i publicznym, zarówno w Polsce, jak i w Stanach Zjednoczonych. Prowadziliśmy kampanie PR o zasięgu ogólnokrajowym i międzynarodowym oraz współpracowaliśmy z czołowymi mediami z obu krajów.",
+    "textContent2": "Oferujemy kompleksowe wsparcie PR: relacje z mediami, opracowanie strategii marketingowych oraz planowanie komunikacji — zawsze dostosowane do odbiorcy, rynku i celów Twojej firmy."
+  },
+  "workshopsEvents": {
+    "title": "Szkolenia i warsztaty",
+    "textContent": "Organizujemy warsztaty, szkolenia, konferencje i wydarzenia — od praktycznej wiedzy biznesowej po subtelne różnice kulturowe.Tworzymy formaty dopasowane do Twoich celów — niezależnie od tego, czy chcesz zorganizować wydarzenie publiczne, spotkanie firmowe czy kameralne spotkanie z liderem biznesu lub opinii.",
+    "textContent2": "Pomagamy w zaangażowaniu najbardziej wpływowych liderów biznesu, opinii czy polityki.  Pracujemy z ekspertami i prelegentami, którzy oferują nie tylko wiedzę, ale i mają znaczenie — lokalnie i międzynarodowo."
+  },
+  "researchInsights": {
+    "title": "Badania i analizy",
+    "textContent": "Potrzebujesz rzetelnych informacji na temat relacji polsko-amerykańskich lub trendów rynkowych? Przygotowujemy klarowne raporty, opracowania i analizy wspierające podejmowanie decyzji.",
+    "textContent2": "Nasze badania opierają się na sprawdzonych danych, kontekście rynkowym i realnych potrzebach biznesu."
+  },
+  "communityOutreach": {
+    "title": "Współpraca ze społecznościami",
+    "textContent": "Współpracowaliśmy z kluczowymi organizacjami polonijnymi w Stanach Zjednoczonych i znamy strukturę, liderów i dynamikę tamtejszych społeczności.",
+    "textContent2": "Potrafimy efektywnie wspierać budowanie relacji z polską diasporą w USA na każdym polu – od biznesu po sprawy społeczne."
+  },
+  "governmentRelations": {
+    "title": "Government Relations",
+    "textContent": "Mamy doświadczenie zarówno w pracy na kierowniczych stanowiskach w strukturach administracji publicznej w Polsce, jak i we współpracy z federalnymi i stanowymi instytucjami w USA.",
+    "textContent2": "Znamy kulturę i procedury sektora publicznego po obu stronach Atlantyku. Pomagamy dotrzeć do właściwych interesariuszy, zawsze z zachowaniem najwyższych standardów działania."
   }
 }

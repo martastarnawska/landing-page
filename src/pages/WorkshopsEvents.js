@@ -4,7 +4,7 @@ import Subpage from "@/components/Subpage";
 import useClientSideTranslation from '@/hooks/useClientSideTranslation';
 import '../i18n/i18n';
 
-const GeneralConsulting = () => {
+const WorkshopsEvents = () => {
   const { t } = useTranslation();
   const loaded = useClientSideTranslation();
 
@@ -13,11 +13,11 @@ const GeneralConsulting = () => {
   }
 
   return (
-    <Subpage title={t('generalConsulting.title')}>
-      <p>{t('generalConsulting.textContent')}</p>
-      <p>{t('generalConsulting.textContent2')}</p>
+    <Subpage title={t('workshopsEvents.title')}>
+      <p>{t('workshopsEvents.textContent')}</p>
+      <p>{t('workshopsEvents.textContent2')}</p>
     </Subpage>
   )
 }; 
 
-export default GeneralConsulting;
+export default WorkshopsEvents;
