@@ -80,15 +80,6 @@ const Menu = () => {
             {t('menu.contactUs')}
           </Link>
         </li>
-        <li className="menu__listItem">
-          <Link
-            className="menu__link"
-            href={"/#OurOffices"}
-            onClick={toggleMenuOpen}
-          >
-            {t('menu.ourOffices')}
-          </Link>
-        </li>
         <li className="menu__listItem menu__listItem--button">
           <button
             onClick={() => {
