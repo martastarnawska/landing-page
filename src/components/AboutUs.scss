@@ -23,14 +23,8 @@
 
   &__portrait {
     padding-bottom: 30px;
-    width: 225px;
+    width: 280px;
     height: auto;
-  }
-
-  &__description {
-    &--second {
-      text-align: end;
-    }
   }
 
   &__name {
@@ -43,46 +37,32 @@
     font-family: "dejanire-headline", serif;
   }
 
-  &--reversed {
-    align-items: end;
-  }
-
-  @include xs-screen {
-    &__description {
-      &--first {
-        padding-left: 40px;
-      }
-  
-      &--second {
-        padding-right: 70px;
-      }
-    }
-  }
-
   @include tablet-screen {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: center;
+    
+    &--first {
+      padding-left: 0;
+
+      .card__bio {
+        grid-row-start: 2;
+      }
+    }
 
     &--reversed {
-      .card__portrait {
-        order: 2;
-      }
-    }
+      padding-right: 0;
 
-    &__portrait {
-      padding: 50px;
-      width: 400px;
-      height: auto;
-    }
-
-    &__description {
-      &--first {
-        padding-left: 0;
+      .card__name {
+        grid-column-start: 2;
       }
-  
-      &--second {
-        padding-right: 0;
+
+      .card__imageWrapper {
+        grid-column-start: 1;
+        grid-row-start: 2;
+      }
+
+      .card__bio {
+        grid-column-start: 2;
       }
     }
 
@@ -96,11 +76,29 @@
       margin-left: -20px;
     }
 
-    &--reversed {
-      .card__firstName {
-        justify-content: end;
+    &__imageWrapper {
+      &--first {
+        grid-column-start: 2;
+        grid-row-start: 2;
+
+        .card__portrait {
+          padding: 0 0 50px 50px;
+        }
       }
 
+      &--second {
+        .card__portrait {
+          padding: 0 50px 0 0;
+        }
+      }
+    }
+
+    &__portrait {
+      width: 400px;
+      height: auto;
+    }
+
+    &--reversed {
       .card__dot {
         margin: 20px;
         margin-right: -20px;
