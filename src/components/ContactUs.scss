@@ -30,16 +30,16 @@
 
   &__input {
     height: 40px;
-    width: 275px;
-    margin: 10px;
+    width: 100%;
+    margin: 10px 0;
     padding: 5px;
     font-family: "freight-micro-pro", serif;
   }
 
   &__message {
-    width: 275px;
+    width: 100%;
     padding: 5px;
-    margin: 10px;
+    margin: 10px 0;
     border: 1px solid $c-gray;
     display: flex;
     flex-direction: column;
@@ -63,27 +63,5 @@
     border: none;
     cursor: pointer;
     align-self: flex-end;
-  }
-
-  @include xs-screen {
-    &__input, 
-    &__message {
-      width: 350px; 
-    }
-  }
-
-  @include small-screen {
-    &__input, 
-    &__message {
-      width: 550px; 
-    }
-  }
-
-
-  @include tablet-screen {
-    &__input, 
-    &__message {
-      width: 600px; 
-    }
   }
 }
