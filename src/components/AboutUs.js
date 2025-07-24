@@ -14,8 +14,8 @@ const AboutUs = () => {
       <div className="card card--first">
         <p className="card__name">
           <span className="card__firstName">
-            <span className="dot card__dot"></span>
             <span>Adrian</span>
+            <span className="dot card__dot"></span>
           </span>
           <b className="card__lastName">Kubicki</b>
         </p>

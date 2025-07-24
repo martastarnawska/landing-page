@@ -72,8 +72,7 @@
     }
 
     &__dot {
-      margin: 20px;
-      margin-left: -20px;
+      margin: 15px;
     }
 
     &__imageWrapper {
@@ -96,13 +95,6 @@
     &__portrait {
       width: 400px;
       height: auto;
-    }
-
-    &--reversed {
-      .card__dot {
-        margin: 20px;
-        margin-right: -20px;
-      }
     }
   }
 }
